@@ -18,7 +18,7 @@ $("#add-train").on("click", function (event) {
 
   var name = $("#train-name-input").val().trim();
   var destination = $("#destination-input").val().trim();
-  var first = moment($("#first-input").val().trim(), "HH:mm").format("X");
+  var first = moment($("#first-input").val().trim(), "HH:mm").format("HH:mm");
   var frequency = $("#frequency-input").val().trim();
 
 //Problem 2: Store that date in firebase
