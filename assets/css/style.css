@@ -1,0 +1,18 @@
+body {
+    background-image: url("../images/usmap.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Slabo 27px', serif !important;
+}
+
+.jumbotron, .panel {
+    border: 3px solid black !important; 
+}
+
+.jumbotron {
+    background-color: white !important; 
+    padding: 0 !important; 
+}
